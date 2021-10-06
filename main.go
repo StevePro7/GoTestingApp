@@ -7,7 +7,9 @@ import (
 )
 
 func main() {
-	val := adriana.Add(2, 3)
-	fmt.Println(val)
-	fmt.Println("GoTestingApp")
+	val1 := adriana.Add(2, 3)
+	fmt.Println(val1)
+
+	val2 := adriana.Sub(7, 3)
+	fmt.Println(val2)
 }
