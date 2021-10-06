@@ -2,10 +2,12 @@ package main
 
 import (
 	"fmt"
+
+	"github.com/stevepro7/gotestinglib/adriana"
 )
 
 func main() {
-	val := GoTestingLib.stevepro.Add(4, 8)
+	val := adriana.Add(2, 3)
 	fmt.Println(val)
 	fmt.Println("GoTestingApp")
 }
